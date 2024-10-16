@@ -9,3 +9,10 @@ The platform will also offer an AI-generated thumbnail service, which creates en
 
 ### Phase 1- AI Image generation:
 Completed phase 1 by use of Gemini API to summarize youtube videos and use of freepik api to generate thumbnails
+
+
+### Developed By-
+1. Disha Vasani
+2. Umang Paliwal
+3. Divyanshu Wakodikar
+4. Pranav Pathe
