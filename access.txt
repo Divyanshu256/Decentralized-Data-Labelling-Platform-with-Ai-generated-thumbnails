@@ -1,0 +1,7 @@
+AKIA2UC267ZFSWGCETXE access key, 6+lK5SFJkSYE6zqd7bNgZRUmQXjqUnnbJTWHiraD -aws credential CLI presignedgenerator
+postgres-postgresql://neondb_owner:cVNixEwy9g7Q@ep-rough-field-a447zswe.us-east-1.aws.neon.tech/neondb?sslmode=require
+DATABASE_URL="postgresql://neondb_owner:Pxtd6hmSE9nj@ep-cold-sun-a40gb8vf.us-east-1.aws.neon.tech/neondb?sslmode=require"
+JWT_SECRET = "div@123"
+WORKER_JWT_SECRET=""
+RPC_URL=https://api.mainnet-beta.solana.com
+JWT_TOKEN="eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjEsImlhdCI6MTcyOTMzNTM3N30.mUACyfXki2rlDsvB-YjJ5Q-rCKKwZ-cXhLPTJgBy_GI
