@@ -8,7 +8,7 @@ import { authMiddleware } from "../middleware";
 import { Request, Response, NextFunction } from 'express';
 import {createPresignedPost} from '@aws-sdk/s3-presigned-post'
 import { Connection, PublicKey, Transaction } from "@solana/web3.js";
-import { JWT_SECRET, TOTAL_DECIMALS } from "../config";
+import { JWT_SECRET, TOTAL_DECIMALS,accessKeyId,secretAccessKey } from "../config";
 const connection = new Connection(process.env.RPC_URL ?? "");
 const PARENT_WALLET_ADDRESS = "BiZTieP1UW53dYL75gtRLuUJ5A1djGDqbnKFTBmEPHSb";
 // BiZTieP1UW53dYL75gtRLuUJ5A1djGDqbnKFTBmEPHSb
@@ -34,8 +34,8 @@ const DEFAULT_TITLE="Select the most clickable thumbnail"
 
 const s3Client=new S3Client({
     credentials:{
-        accessKeyId:"AKIA2UC267ZFSWGCETXE",
-        secretAccessKey:"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"
+        accessKeyId:accessKeyId,
+        secretAccessKey:secretAccessKey
     },
     region: "us-east-1"
 })
